@@ -29,27 +29,27 @@ a:hover{ color:#333;}
 
 #head{ height:160px; background:url(../img/h.jpg);}
 #head .top{ width:980px; margin:0 auto;}
-#head .top .logo{ width:240px; float:left; margin-top:25px;}
-.nav{ width:700px; height:166px; float:right;}
+#head .top .logo{float:left; margin-top:25px;}
+.nav{ width:500px; height:166px; float:right;}
 .nav ul li{ float:left; width:100px; height:150px; text-align:center; line-height:150px; font-size:14px; font-weight:bold;}
 .nav ul li a{ height:150px; width:100px; display:block;}
-.nav ul li a:hover{ height:150px; width:100px; background:#ee0000; color:#fff;}	
-.nav ul li a.ys{ height:150px; width:100px; background:#ee0000; color:#fff;}
+.nav ul li a:hover{ height:150px; width:100px; background:#131A22; color:#fff;}	
+.nav ul li a.ys{ height:150px; width:100px; background:#131A22; color:#fff;}
 
 
 .jdt{ height:450px;}
 
 
 #main{}
-#main .main1{ height:280px; background:#f8f8f8;}
-#main .main1 .main_t{ width:980px; margin:0 auto; padding-top:18px;}
+#main .main1{ height:3000px; background:#f8f8f8;}
+#main .main1 .main_t{ width:1100px; margin:0 auto; padding-top:18px;min-height: 280px;}
 #main .main1 .main_t .about{ width:610px; float:left;}
-#main .main1 .main_t .about .about_t{ width:610px; height:40px; font-size:16px; font-weight:bold; line-height:40px; color:#ee0000;}
+#main .main1 .main_t .about .about_t{ width:610px; height:40px; font-size:16px; font-weight:bold; line-height:40px; color:#131A22;}
 #main .main1 .main_t .about .about_tu{ width:275px; float:left;}
 #main .main1 .main_t .about .about_nr{ line-height:25px;}
 
-#main .main1 .main_t .news{ width:320px; float:right;}
-#main .main1 .main_t .news .news_t{ width:320px; height:40px; font-size:16px; font-weight:bold; line-height:40px;color:#ee0000;}
+#main .main1 .main_t .news{ width:460px; float:right;}
+#main .main1 .main_t .news .news_t{ width:320px; height:40px; font-size:16px; font-weight:bold; line-height:40px;color:#131A22;}
 #main .main1 .main_t .news .news_ti{ height:120px;}
 #main .main1 .main_t .news .news_ti .news_tu{ width:140px;float:left;}
 #main .main1 .main_t .news .news_ti .news_tu img{ height:100px; width:120px;}
@@ -62,11 +62,11 @@ a:hover{ color:#333;}
 .TTSlider{width:980px;margin:0px auto;}
 .TTSlider li{list-style-type:none;float:left;}
 .TTSlider li img{border:none;}
-.TTSliderTitle{background:#ee0000;height:50px;}
+.TTSliderTitle{background:#131A22;height:50px;}
 .TTSliderTitle ul{width:980px;}
 .TTSliderTitle li{width:140px;height:50px;position:relative;z-index:3;left:0;}
 .TTSliderTitle li div{border-right:1px solid #C3C5C7;border-top:1px solid #C3C5C7;left:0;right:0;top:0;bottom:0;position:absolute;_width:139px;_height:50px}
-.TTSliderTitle .cur div{border:2px solid #f00;background:#ee0000;z-index:3;border-bottom:none;bottom:-2px;_height:50px;_width:136px}
+.TTSliderTitle .cur div{border:2px solid #f00;background:#131A22;z-index:3;border-bottom:none;bottom:-2px;_height:50px;_width:136px}
 .TTSliderTitle .noneBorRight div{border-right:none;}
 .TTSliderTitle li a{display:block; text-align:center;height:100%;line-height:50px;text-decoration:none;overflow:hidden;font-size:14px; color:#fff; font-weight:bold;}
 .TTSliderTitle li a img{height:50px;margin:6px;width:50px}
@@ -86,10 +86,10 @@ a:hover{ color:#333;}
 .TTSliderNextBtn a{background:url(../images/btn.png) no-repeat -30px 0}
 
 
-#footer{ height:120px; background:#ee0000;}
+#footer{ height:120px; background:#131A22;}
 #footer .footer1{ width:980px; margin:0 auto;color:#fff; padding-top:20px;}
 #footer .footer1 .left{ width:300px; float:left;}
 #footer .db_dh{height:50px; line-height:50px;}
 #footer .footer1 .db_dh ul li a{ color:#fff;}
-#footer .footer1 .content{width:200px; float:left; margin-left:120px;}
-#footer .footer1 .right{ width:200px; float:left; margin-left:120px;}
+#footer .footer1 .content{float:left;}
+#footer .footer1 .right{ float:left; margin-left:100px;}
